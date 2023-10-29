@@ -1,19 +1,27 @@
 body {
-    background-color: lightblue;
-  }
-  h1 {
-    color: salmon;
-    background-color: darkblue;
-  }
-  
-  h2 {
-    color: coral;
-    background-color: navy;
-  }
-  
-  section {
-    background-color: rgb(173, 246, 221);
-  }
-  a {
-    color: darkgreen;
-  }
+	background-color: lightblue;
+}
+h1 {
+	color: salmon;
+	background-color: darkblue;
+}
+
+h2 {
+	color: coral;
+	background-color: navy;
+}
+
+section {
+	background-color: rgb(173, 246, 221);
+}
+a {
+	color: darkgreen;
+}
+
+.my-article {
+    color: hotpink;
+}
+
+.my-article p {
+    color: darkmagenta;
+}
