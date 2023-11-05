@@ -23,6 +23,12 @@ body {
 }
 .main {
 	padding: 1rem;
+	margin: 0 auto;
+	max-width: 1280px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
 }
 .navigation {
 	max-width: 1280px;
@@ -43,17 +49,33 @@ body {
 
 .navigation__link:hover {
 	color: lightgray;
-	text-decoration: underline;
 }
-.section {
+.section__about {
 	background-color: #d6d6d6;
 	padding: 1rem;
+	max-width: 1280px;
 }
-.section__header {
+.section__about--content {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+
+}
+.section__about--header {
 	padding-left: 1rem;
 	border-left: 7px solid #fc00ff;
 	line-height: 3rem;
 	color: #000;
+	margin: 0 0 1rem 0;
+}
+.section__about--image {
+	border-radius: 3px;
+	max-height: 200px;
+}
+.section__about--text	{
+	font-size: 18px;
+	line-height: 1.5rem;
+	
 }
 .title__header {
 	background-color: #111;
