@@ -16,8 +16,8 @@ body {
 .header {
 	height: 80px;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	flex-direction: row;
+	gap: 24px;
 	background-color: #00dbde;
 	background-image: linear-gradient(305deg, #00dbde 0%, #fc00ff 100%);
 }
@@ -33,7 +33,6 @@ body {
 .navigation {
 	max-width: 1280px;
 	display: flex;
-	justify-content: space-around;
 	flex-grow: 1;
 }
 
